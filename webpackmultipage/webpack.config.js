@@ -12,9 +12,10 @@ module.exports = {
 		/*flexible:'flexible.js',
 		zepto:'zepto.min.js'*/
 		common:[
-			'./src/flexible.js'/*,
-			'./src/zepto.min.js'*/
-		]
+			'./src/flexible.js',
+			'./src/zepto.min.js'
+		],
+		demo:'./src/about.js'
 	},
 	output:{//出口
 		path:path.resolve(__dirname,'build'),
